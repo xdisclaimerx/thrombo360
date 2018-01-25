@@ -1,0 +1,489 @@
+/*iPad Landscape and Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .main-content {
+    background: url('../images/sp_content_bg.jpg') repeat-x;
+    height: auto;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .row.container {
+    margin: auto;
+    max-width: 1397px;
+    width: 79.29%
+  }
+
+  .schedule {
+    font-size: 14px;
+    text-align: center;
+  }
+
+   .join {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-top: 20px;
+  }
+
+  .grp-btns {
+    margin-top: 20;
+  }
+
+  .book_today {
+    margin-bottom: 0px;
+    }
+
+  .sydney_event {
+    margin-bottom: 0px;
+  }
+
+  .row.dotted img {
+    margin-top: -15px;
+  }
+
+  .faculty-member {
+    margin-left: 5px;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .row.join-book {
+    position: relative;
+  }
+
+  .row.join-book .col-md-4 {
+    width: 40%;
+    z-index: 1000;
+  }
+
+  .row.join-book .col-md-8.col-xs-8 img {
+    width: 55%;
+    margin-top: -10px;
+  }
+
+  p.act-no {
+    float: none;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .row.dotted-sp {
+    position: absolute;
+    background: url('../images/tb_dotted_bg.png') no-repeat;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+  }
+
+  .row.dotted {
+    background: none;
+  }
+
+  .row.footer-links {
+    margin-top: 116px;
+  }
+
+}
+
+/*iPad Landscape Only */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .main-content {
+    background: url('../images/web_content_bg.jpg') no-repeat;
+    height: auto;
+    width: 100%;
+  }
+
+  .row.container {
+    height: 520px;
+  }
+
+   .schedule {
+    font-size: 14px;
+    text-align: center;
+  }
+
+   .join {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-top: 20px;
+  }
+
+  .faculty-member {
+    margin-top:5px;
+    margin-left: 16px;
+    font-size: 1.6rem;
+    padding: 0;
+  }
+
+  .row.dotted {
+    background: url(../images/dotted_bg.png) no-repeat;
+  }
+
+  .row.dotted-sp {
+    display: none;
+  }
+
+  .row.footer-links {
+    margin-top: 50px;
+  }
+
+
+}
+
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 736px) {
+  .main-content {
+    background: url('../images/sp_content_bg.jpg') no-repeat;
+    height: auto;
+    width: 100%;
+  }
+
+  .schedule {
+    text-transform: uppercase;
+    border-top: 1px solid #f26a3a;
+    border-bottom: 1px solid #f26a3a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -1px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: .7rem;
+    text-align: center
+  }
+
+  .row.join-book {
+    padding:20px;
+    position:relative;
+  }
+
+  .row.join-book .col-md-8 {
+    width: 60%;
+    padding-right: 0;
+  }
+
+  .row.join-book .col-md-4 {
+    width: 40%;
+    z-index: 1000;
+  }
+
+  .join {
+    font-size: .84rem;
+    line-height: 1.2rem;
+    margin-top: 0px;
+  }
+
+  .grp-btns {
+    margin-top: 0;
+  }
+
+  .faculty-member {
+    margin-left: 5px;
+    font-size: .80rem;
+    padding: 0;
+  }
+
+  .row.join-book .col-md-8.col-xs-8 img {
+    width: 55%;
+    margin-top: -30px;
+  }
+
+
+  .sydney_event, .book_today {
+    margin-bottom: 10px;
+  }
+
+  p.act-no {
+    font-size: .65rem;
+    margin-top: -13px;
+    float: none;
+  }
+
+  .row.dotted {
+    background: none;
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    max-height: 400px;
+    height: 80px;
+  }
+
+  .row.footer-links, .row.footer-logo {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .row.footer-links .col-sm-4 {
+    width: 33%;
+    padding: 0;
+  }
+
+  .row.footer-links a {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .row.footer-logo .col-md-12 {
+    margin-left: 0;
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 736px)
+and (orientation : landscape)  {
+  
+  .join {
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      margin-top: 0px;
+
+   }
+
+   .row.join-book .col-md-8.col-xs-8 img {
+      margin-top: 0px;
+      width: 80%;
+   }
+
+   .row.join-book .col-md-4 {
+      text-align: center;
+   }
+
+   p.act-no {
+      font-size: .8rem;
+      margin-top: 5px;
+      float: none;
+  }
+
+  .col-md-4.col-xs-4.grp-btns img {
+      width: 80%;
+  }
+
+  .row.dotted {
+    height: 115px;
+  }
+
+  .row.dotted-sp {
+    background: url('../images/tb_dotted_bg.png') no-repeat;
+    background-size: 91%;
+    background-position-x: 47px;
+  }
+
+  .faculty-member {
+    font-size: 1.5rem;
+        margin-top: -24px;
+        margin-left: 30px;
+        line-height: 2rem
+  }
+
+  .row.footer-links .col-md-4.col-sm-4.col-xs-4:nth-child(1) {
+    text-align: left;
+  }
+}
+
+@media screen 
+  and (min-device-width: 1440px) 
+  and (max-device-height: 900px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    body {
+      zoom: 80%;
+    }
+}
+
+/*iPad Pro*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+      zoom: 80%;
+    }
+
+    p {
+  color: #fff;
+}
+
+.header img {
+  width: 100%;
+}
+
+.main-content {
+  background: url('../images/web_content_bg.jpg') repeat-x;
+  height: auto;
+  width: 100%;
+}
+
+.row.container {
+    margin: auto;
+    max-width: 1397px;
+    width: 137.73%;
+  }
+
+.schedule {
+  text-transform: uppercase;
+  border-top: 1px solid #f26a3a;
+  border-bottom: 1px solid #f26a3a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -1px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.join {
+  font-size: 37px;
+  margin-top: 20px;
+}
+
+.grp-btns {
+  margin-top: 20px;
+}
+
+.faculty-member {
+  font-size: 35px;
+  padding:20px;
+}
+
+p.act-no {
+  float: right;
+  text-transform: uppercase;
+  margin-right: 35px;
+}
+
+.book_today {
+  margin-bottom: 35px;
+}
+
+.sydney_event {
+  margin-bottom: 40px;
+}
+
+.row.dotted {
+  background:none;
+}
+
+.row.footer-links, .row.footer-logo {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.row.footer-links .col-md-4:nth-child(2) {
+  text-align: center;
+}
+
+.row.footer-links .col-md-4:nth-child(3) {
+  text-align: right;
+}
+
+.row.footer-links a {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  }
+
+}
+
+
+@media only screen 
+  and (min-device-width: 737px) 
+  and (max-device-width: 767px) {
+.main-content {
+    background: url('../images/sp_content_bg.jpg') repeat-x;
+    height: auto;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .row.container {
+    margin: auto;
+    max-width: 1397px;
+    width: 79.29%
+  }
+
+  .schedule {
+    font-size: 14px;
+    text-align: center;
+  }
+
+   .join {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-top: 20px;
+  }
+
+  .grp-btns {
+    margin-top: 20;
+  }
+
+  .book_today {
+    margin-bottom: 0px;
+    }
+
+  .sydney_event {
+    margin-bottom: 0px;
+  }
+
+  .row.dotted img {
+    margin-top: -15px;
+  }
+
+  .faculty-member {
+    margin-left: 5px;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .row.join-book {
+    position: relative;
+  }
+
+  .row.join-book .col-md-4 {
+    width: 40%;
+    z-index: 1000;
+  }
+
+  .row.join-book .col-md-8.col-xs-8 img {
+    width: 55%;
+    margin-top: -10px;
+  }
+
+  p.act-no {
+    float: none;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .row.dotted-sp {
+    position: absolute;
+    background: url('../images/tb_dotted_bg.png') no-repeat;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+  }
+
+  .row.dotted {
+    background: none;
+  }
+
+  .row.footer-links {
+    margin-top: 116px;
+  }
+
+  } 
