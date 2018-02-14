@@ -1,22 +1,51 @@
-p {
-  color: #fff;
+/*mobile*/
+body {
+  color: #fff !important;
 }
 
 .header img {
   width: 100%;
 }
 
+.clear {
+  clear:both;
+}
+
+.header {
+  background: url('../images/header_bg_sp.jpg');
+  background-size: cover;
+}
+
+.header_logo {
+  background: url(../images/thrombo_header_sp.png) no-repeat;
+  height: 298.5px;
+  max-width: 450px;
+  margin: auto;
+  background-size: contain;
+}
+
 .main-content {
   background: url('../images/web_content_bg.jpg') repeat-x;
   height: auto;
   width: 100%;
+  background-color: #c5131a;
 }
 
-.row.container {
+.container {
     margin: auto;
     max-width: 1397px;
-    width: 137.73%
-  }
+    width: 79.29%;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+
+.date {
+  flex: 0 0 100%;
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+}
 
 .schedule {
   text-transform: uppercase;
@@ -27,89 +56,459 @@ p {
   margin-bottom: -1px;
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 19px;
+  font-size: .9rem;
   text-align: center;
 }
 
+.content-left {
+  float: left;
+  width: 66.666%;
+}
+
+
 .join {
-  font-size: 37px;
   margin-top: 20px;
+  letter-spacing: 0px;
+  padding-right: 10%;
+  line-height: 1.2;
+  font-size: calc(13px + 2 * ((90vw - 320px) / 280));
 }
 
 .grp-btns {
   margin-top: 20px;
+  width: 33.3333%;
+  float: left;
 }
 
+
+.content-left img.img-fluid {
+  width: 52%;
+}
+
+
+p.act-no {
+  text-transform: uppercase;
+  margin-right: 90px;
+  font-size: .5rem;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
 .faculty-member {
-  font-size: 35px;
-  padding:20px;
+  font-size: calc(12px + 3 * ((90vw - 320px) / 280));
+  padding-left: 10px;
+  width: 215px;
+  margin-top: 24%;
+  line-height: 14px;
+}
+
+.grp-btns p {
+  margin-bottom: 1.5rem;
+}
+
+ button.book-today {
+    background: url(../images/book_today_btn_tab.png) no-repeat;
+    height: 80px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.sydney-event {
+    background: url(../images/syndey_btn_tab.png) no-repeat;
+    height: 70px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.brisbane-event {
+    background: url(../images/brisbane_btn_tab.png) no-repeat;
+    height: 70px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  .book_today {
+    margin-bottom: 0px;
+  }
+
+  .sydney_event {
+    margin-bottom: 0px;
+  }
+
+  .content-left img.img-fluid {
+      width: 50%;
+  }
+
+  .row.footer-links, .row.footer-logo {
+    margin: 11px auto;
+    max-width: 1397px;
+  }
+
+  .row.footer-links a {
+    font-size: 12px;
+  }
+
+  .row.footer-links .col-md-4.col-sm-4.col-xs-4 {
+    width: 33.33%;
+  }
+
+  .row.footer-links .col-md-4:nth-child(2) {
+    text-align: center;
+  }
+
+  .row.footer-links .col-md-4:nth-child(3) {
+    text-align: right;
+  }
+
+  .row.footer-links a {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+
+
+@media (min-width: 576px) {
+
+.join {
+  font-size: inherit;
+  margin-top: 20px;
+  letter-spacing: 0px;
+  padding-right: 10%;
+  line-height: 1.2;
+}
+
+
+
+.faculty-member {
+  font-size: .8rem;
+  padding-left:10px;
+  width: 75%;
+  margin-top: 38px;
+  line-height: 16px;
 }
 
 p.act-no {
-  float: right;
   text-transform: uppercase;
-  margin-right: 35px;
+  margin-right: 94px;
+  font-size: .65rem;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-.book_today {
+
+.grp-btns p {
+    margin-bottom: 1.5rem;
+}
+
+ button.book-today {
+    background: url(../images/book_today_btn_tab.png) no-repeat;
+    height: 80px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.sydney-event {
+    background: url(../images/syndey_btn_tab.png) no-repeat;
+    height: 70px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.brisbane-event {
+    background: url(../images/brisbane_btn_tab.png) no-repeat;
+    height: 70px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    background: url('../images/header_bg_tablet.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover; 
+  }
+
+  .header_logo {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 320px;
+    background: url('../images/thrombo_header_tablet.png') no-repeat;
+    background-size: contain;
+  }
+
+  .join {
+    font-size: 21px;
+  }
+
+  .faculty-member {
+    font-size: 19px;
+    padding-left: 7px;
+    width: 80%;
+    line-height: 25px;
+    margin-top: 52px;
+  }
+
+  button.book-today {
+    background: url(../images/book_today_btn_tab.png) no-repeat;
+    height: 120px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.sydney-event {
+    background: url(../images/syndey_btn_tab.png) no-repeat;
+    height: 102px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.brisbane-event {
+    background: url(../images/brisbane_btn_tab.png) no-repeat;
+    height: 102px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  .content-left img.img-fluid {
+    width: 50%
+  }
+
+  footer {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grp-btns p {
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container, footer {
+      max-width: 1397px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .header {
+    background: url('../images/header_bg_tablet.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover; 
+  }
+
+  .header_logo {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    background: url('../images/thrombo_logo.png') no-repeat;
+    background-size: contain;
+
+  }
+/*
+  .container {
+    background-size: 785px;
+    background-position-y: 97px;
+  }*/
+
+  .join {
+  font-size: 21px;
+  }
+
+  .faculty-member {
+    padding: 10px;
+    margin-top: 60px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 27px;
+        margin-left: 25px;
+  }
+
+  .content-left img.img-fluid {
+    width: 45%;
+  }
+
+  .schedule {
+    font-size: 19px;
+  }
+
+/*  .book_today {
   margin-bottom: 35px;
-}
-
-.sydney_event {
-  margin-bottom: 40px;
-}
-
-.row.dotted {
-  background: url('../images/dotted_bg.png') no-repeat;
-  width: 100%;
-  background-size: cover;
-  margin-left: 0;
-}
-
-.row.footer-links, .row.footer-logo {
-  margin-top: 60px;
-  width: 100%;
-}
-
-.row.footer-links .col-md-4:nth-child(2) {
-  text-align: center;
-}
-
-.row.footer-links .col-md-4:nth-child(3) {
-  text-align: right;
-}
-
-.row.footer-links a {
-  font-size: 15px;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-
-.col-md-8 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 66.666667%;
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%; 
-}
-
-.col-md-4 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-
-
-@media (min-width: 768px) and (max-width: 1919px) {
-  body {
-    zoom: 70%;
   }
 
-  .row.container {
-    margin: auto;
+  .sydney_event {
+    margin-bottom: 35px;
+  }*/
+
+
+
+  p.act-no {
+    float: right;
+    font-size: 13px;
+    margin-top: -10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 100px;
+  }
+
+  .row.footer-links a {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  button.book-today {
+    background: url(../images/book_today_btn.png) no-repeat;
+    height: 108px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.sydney-event {
+    background: url(../images/syndey_btn.png) no-repeat;
+    height: 80px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.brisbane-event {
+    background: url(../images/brisbane_btn.png) no-repeat;
+    height: 80px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  .grp-btns p {
+    margin-bottom: 1rem;
+  }
+
+}
+
+/*ipad*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .join {
+    font-size: 21px;
+    }
+
+  }
+
+/*Desktop*/
+@media (min-width: 1200px) {
+.main-content .container, .header_logo, footer {
     max-width: 1397px;
-    width: 80.73%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  .header {
+    background: url('../images/header_bg_desktop.jpg');
+  }
 
+  .header_logo {
+    background: url('../images/thrombo_logo.png') no-repeat;
+    height: 473px;
+    background-size: contain;
+  }
+
+  .join {
+    font-size: 34px;
+  }
+
+  .faculty-member {
+    padding: 30px;
+    line-height: 33px;
+    margin-top: 50px;
+    height: 175px;
+    font-size: 28px;
+    /*background: url('../images/web_dotted_bg.png') no-repeat;*/
+  }
+
+  p.act-no {
+    float: right;
+    font-size: 15px;
+    margin-top: -10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 100px;
+  }
+
+  .book-today {
+  margin-bottom: 20px;
+  }
+
+  .sydney-event {
+    margin-bottom: 20px;
+  }
+
+  button.book-today {
+    background: url(../images/book_today_btn.png) no-repeat;
+    height: 150px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.brisbane-event {
+    background: url(../images/brisbane_btn.png) no-repeat;
+    height: 110px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  button.sydney-event {
+    background: url(../images/syndey_btn.png) no-repeat;
+    height: 110px;
+    width: 100%;
+    border: none;
+    display: block;
+    background-size: contain;
+  }
+
+  .grp-btns p {
+    margin-bottom: 1rem;
+  }
 }
+

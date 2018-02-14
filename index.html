@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -13,73 +12,71 @@
   </head>
   <body>
     <div class="header">
-      <picture>
-        <source media="(min-width: 650px)"  srcset="images/thrombo_header.jpg">
-        <source media="(min-width: 465px)"  srcset="images/thrombo_header_sp.jpg">
-        <img src="images/thrombo_header_sp.jpg" class="img-fluid" />
-      </picture>
+      <div class="header_logo">
+        <!-- <picture>
+          <source media="(min-width: 1200px)" srcset="images/thrombo_header_sp.jpg">
+          <source media="(min-width: 465px)"  srcset="images/thrombo_header_tablet.jpg">
+          <img src="images/thrombo_header_sp.jpg" class="img-fluid" />
+<img src="images/thrombo_header_sp.jpg" class="img-fluid" />
+        </picture> -->
+        <!-- <img  data-sizes="auto" data-src="images/thrombo_header_sp.jpg" data-srcset="images/thrombo_header_sp.jpg 300w, images/thrombo_header_tablet.jpg 600w, images/thrombo_logo.png 900w" class="lazyload" /> -->
+      </div>
     </div>
     <div class="main-content">
-      <div class="row container">
-        <div class="col-md-12 col-xs-12">
+      <div class="container">
+        <div class="date">
           <p class="schedule">Saturday March 10 to Sunday March 11 2018 &bull; Sheraton on the Park, 161 Elizabeth Street, Sydney NSW 2000</p>
           <p class="schedule">Saturday March 24 to Sunday March 25 2018 &bull; Hilton Brisbane, 190 Elizabeth Street, Brisbane City QLD 4000</p>
         </div>
-        <div class="row join-book">
-          <div class="col-md-8 col-xs-8">
+        <div class="join-book">
+          <div class="content-left">
             <p class="join">Join Australia's leading experts in NVAF and DVT/PE for high quality education over 2 days, incorporating an Active Learning Module attracting <strong>40 Category 1 QI&amp;CPD points</strong></p>
             <img src="images/racgp.jpg" class="img-fluid" />
             <p class="act-no">Activity Number 82324</p>
-            
+            <p class="faculty-member">Faculty members include Australia's leading physicians in stroke prevention and vascular health.</p>
           </div>
-        <div class="col-md-4 col-xs-4 grp-btns">
+        <div class="grp-btns">
           <p>
-            <picture>
-              <source media="(max-width: 768px)" sizes="(max-width: 500px) 50vw, 50vw" srcset="images/book_today_btn_tab.png 138w, images/book_today_btn_tab.png 138w">
-              <source media="(max-width: 1400px)" sizes="(max-width: 1000px) 100vw, 50vw" srcset="images/book_today_btn.png 416w, images/book_today_btn.png 416w">
-              <img src="images/book_today_btn.png" class="img-fluid book_today" />
-            </picture>
+            <button class="book-today"></button>
           </p>
           <p>
             <a href="http://starcite.smarteventscloud.com/sydney2018" target="_blank">
-              <picture>
-                <source media="(max-width: 768px)" sizes="(max-width: 500px) 50vw, 50vw" srcset="images/syndey_btn_tab.png 138w, images/brisbane_btn_tab.png 138w">
-                <source media="(max-width: 1400px)" sizes="(max-width: 1000px) 100vw, 50vw" srcset="images/syndey_btn.png 416w, images/syndey_btn.png 416w">
-                <img src="images/syndey_btn.png" class="img-fluid sydney_event"/>
-              </picture>
+              <button class="sydney-event" onclick="window.location.href='http://starcite.smarteventscloud.com/sydney2018'"></button>
+            </a>
+          </p>
+          <p>
+            <a href="http://starcite.smarteventscloud.com/brisbane2018" target="_blank">
+            <button class="brisbane-event" onclick="window.location.href='http://starcite.smarteventscloud.com/brisbane2018'"></button>
             </a>
           </p>
         </div>
+        <div class="clear"></div>
         <div class="row dotted-sp"></div>
         <div class="row dotted">
-          <div class="col-md-8 col-xs-8"><p class="faculty-member">Faculty members include Australia's leading physicians in stroke prevention and vascular health.</p></div>
-          <div class="col-md-4 col-xs-4 grp-btns">
-            <a href="http://starcite.smarteventscloud.com/brisbane2018" target="_blank">
-            <picture>
-              <source media="(max-width: 768px)" sizes="(max-width: 500px) 50vw, 50vw" srcset="images/brisbane_btn_tab.png 138w, images/brisbane_btn_tab.png 138w">
-              <source media="(max-width: 1400px)" sizes="(max-width: 1000px) 100vw, 50vw" srcset="images/brisbane_btn.png 416w, images/brisbane_btn.png 416w">
-              <img src="images/brisbane_btn.png" class="img-fluid brisbane_event" />
-            </picture>
-            </a>
-          </div>
-          <div class="row footer-links">
-            <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.bms.com/au/legal-notice.html" target="_blank">Legal Notice</a></div>
-            <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.bms.com/au/privacy-policy.html" target="_blank">Privacy Policy</a></div>
-            <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.bms.com/au/about-us/contact-us.html" target="_blank">Contact Us</a></div>
-          </div>
-          <div class="row footer-logo">
-            <div class="col-md-12"><img src="images/footer-logos.png" class="img-fluid" /></div>
-          </div>
         </div>
       </div>
     </div>
     </div>
+    <footer>
+      <div class="row footer-links">
+        <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.bms.com/au/legal-notice.html" target="_blank">Legal Notice</a></div>
+        <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.bms.com/au/privacy-policy.html" target="_blank">Privacy Policy</a></div>
+        <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.bms.com/au/about-us/contact-us.html" target="_blank">Contact Us</a></div>
+      </div>
+      <div class="row footer-logo">
+        <div class="col-md-12"><img src="images/footer-logos.png" class="img-fluid" /></div>
+      </div>
+    </footer>
+    <script src="js/lazysizes.min.js" async=""></script>
+    <script src="js/picturefill.min.js" async=""></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113347361-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      gtag('config', 'UA-113347361-1');
+    </script>
   </body>
 </html>

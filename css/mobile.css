@@ -5,26 +5,35 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
   .main-content {
-    background: url('../images/sp_content_bg.jpg') repeat-x;
+    background: url('../images/web_content_bg.jpg') repeat-x;
     height: auto;
     width: 100%;
-    background-size: contain;
+    background-color: #c5131a;
   }
 
-  .row.container {
+  .container {
     margin: auto;
     max-width: 1397px;
-    width: 79.29%
+    width: 79.29%;
   }
 
+
+  .date {
+  flex: 0 0 100%;
+  max-width: 100%;
+  max-width: 1397px;
+  width: 79.29%;
+  margin: auto;
+}
+
   .schedule {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
   }
 
    .join {
-    font-size: 1.4rem;
-    line-height: 1.9rem;
+    font-size: 4vw;
+    line-height: 2.4rem;
     margin-top: 20px;
   }
 
@@ -44,17 +53,26 @@
     margin-top: -15px;
   }
 
+  p.faculty-member {
+  background: url('../images/tb_dotted_bg.png') no-repeat;
+  margin-top: 20px;
+  height: 175px;
+}
+
   .faculty-member {
     margin-left: 5px;
-    font-size: 1.2rem;
-    padding: 0;
+    font-size: 1.4rem;
+    padding: 25px;
+    line-height: 1;
   }
 
-  .row.join-book {
+  .join-book {
     position: relative;
+    width: 85%;
+    margin: auto;
   }
 
-  .row.join-book .col-md-4 {
+  /*.row.join-book .col-md-4 {
     width: 40%;
     z-index: 1000;
   }
@@ -62,15 +80,22 @@
   .row.join-book .col-md-8.col-xs-8 img {
     width: 55%;
     margin-top: -10px;
-  }
+  }*/
 
   p.act-no {
     float: none;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 18px;
   }
 
-  .row.dotted-sp {
+  p.faculty-member {
+    background: url('../images/sp_dotted_bg.png') no-repeat;
+    margin-top: 20px;
+    height: 100px;
+    background-size: contain;
+  }
+
+  /*.dotted-sp {
     position: absolute;
     background: url('../images/tb_dotted_bg.png') no-repeat;
     top: 80px;
@@ -78,13 +103,13 @@
     height: 100%;
     background-size: contain;
   }
-
-  .row.dotted {
+*/
+  .dotted {
     background: none;
   }
 
   .row.footer-links {
-    margin-top: 116px;
+    margin-top: 35px;
   }
 
 }
@@ -97,14 +122,15 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
   .main-content {
-    background: url('../images/web_content_bg.jpg') no-repeat;
+    background: url('../images/web_content_bg.jpg') repeat-x;
     height: auto;
     width: 100%;
+    background-color: #c5131a;
   }
 
-  .row.container {
+/*  .row.container {
     height: 520px;
-  }
+  }*/
 
    .schedule {
     font-size: 14px;
@@ -145,9 +171,10 @@
 and (min-device-width : 375px)
 and (max-device-width : 736px) {
   .main-content {
-    background: url('../images/sp_content_bg.jpg') no-repeat;
+    background: url('../images/web_content_bg.jpg') repeat-x;
     height: auto;
     width: 100%;
+    background-color: #c5131a;
   }
 
   .schedule {
@@ -163,8 +190,8 @@ and (max-device-width : 736px) {
     text-align: center
   }
 
-  .row.join-book {
-    padding:20px;
+  .join-book {
+    padding:10px;
     position:relative;
   }
 
@@ -185,7 +212,7 @@ and (max-device-width : 736px) {
   }
 
   .grp-btns {
-    margin-top: 0;
+    margin-top: 12px;
   }
 
   .faculty-member {
@@ -194,20 +221,28 @@ and (max-device-width : 736px) {
     padding: 0;
   }
 
-  .row.join-book .col-md-8.col-xs-8 img {
-    width: 55%;
-    margin-top: -30px;
-  }
-
 
   .sydney_event, .book_today {
     margin-bottom: 10px;
   }
 
+  .content-left img.img-fluid {
+    width: 80%;
+  }
+
   p.act-no {
     font-size: .65rem;
-    margin-top: -13px;
+    margin-top: 5px;
     float: none;
+    margin-bottom: 5px
+  }
+
+   p.faculty-member {
+    background: url(../images/sp_dotted_bg.png) no-repeat;
+    margin-top: 0px;
+    height: 48px;
+    background-size: contain;
+    line-height: 1.2;
   }
 
   .row.dotted {
@@ -216,13 +251,14 @@ and (max-device-width : 736px) {
     margin-left: 0;
     position: relative;
     max-height: 400px;
-    height: 80px;
   }
 
   .row.footer-links, .row.footer-logo {
     margin-top: 20px;
     width: 100%;
     margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .row.footer-links .col-sm-4 {
@@ -246,6 +282,12 @@ and (min-device-width : 375px)
 and (max-device-width : 736px)
 and (orientation : landscape)  {
   
+
+  .container {
+    margin: auto;
+    width: 79.29%;
+  }
+
   .join {
       font-size: 1.5rem;
       line-height: 1.6rem;
@@ -272,9 +314,9 @@ and (orientation : landscape)  {
       width: 80%;
   }
 
-  .row.dotted {
+/*  .row.dotted {
     height: 115px;
-  }
+  }*/
 
   .row.dotted-sp {
     background: url('../images/tb_dotted_bg.png') no-repeat;
@@ -325,13 +367,14 @@ and (orientation : landscape)  {
   background: url('../images/web_content_bg.jpg') repeat-x;
   height: auto;
   width: 100%;
+   background-color: #c5131a;
 }
 
-.row.container {
+.container {
     margin: auto;
     max-width: 1397px;
-    width: 137.73%;
-  }
+    width: 79.29%;
+}
 
 .schedule {
   text-transform: uppercase;
@@ -404,10 +447,11 @@ p.act-no {
   and (min-device-width: 737px) 
   and (max-device-width: 767px) {
 .main-content {
-    background: url('../images/sp_content_bg.jpg') repeat-x;
+    background: url('../images/web_content_bg.jpg') repeat-x;
     height: auto;
     width: 100%;
     background-size: contain;
+    background-color: #c5131a;
   }
 
   .row.container {
@@ -449,6 +493,10 @@ p.act-no {
     padding: 0;
   }
 
+  p.faculty-member {
+    background: none;
+  }
+
   .row.join-book {
     position: relative;
   }
@@ -487,3 +535,36 @@ p.act-no {
   }
 
   } 
+
+
+  @media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+  .join {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .faculty-member {
+    margin-left: 5px;
+    font-size: .85rem;
+    padding: 0;
+  }
+
+  p.faculty-member {
+    background: none;
+  }
+
+  p.act-no {
+    float: none;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .row.footer-links .col-md-4.col-sm-4.col-xs-4 {
+    width: 33.33%;
+  }
+} 
